@@ -1,0 +1,32 @@
+---
+title: Getting started with a flake template
+---
+## Configuration
+To use one of these templates, you first have to set up [the Nix package
+manager](https://nixos.org/download/) with flakes enabled, on your system. You
+can follow [this
+tutorial](https://nixos-and-flakes.thiscute.world/nixos-with-flakes/introduction-to-flakes)
+for instruction.
+
+For an optimal development experience with Nix, it is recommended to [install
+nix-direnv](configuration/nix-direnv). You also need to configure your
+editor to integrate with direnv:
+
+- [GNU Emacs](configuration/editor/emacs)
+
+{% aside type="note" %}
+If you are using a direnv-compatible editor that is not listed above, please
+feel free to contribute a new guide for the integration method.
+{% /aside %}
+
+## Pick a recipe
+Once you have set up your editor, you can use one of the templates to initialize
+your environment. The Recipes section offers several instructions for creating a
+new development environment from a flake template.
+
+## Patterns
+Certain patterns can be commonly applied across many flakes. While these
+patterns are not required for every project, they offer solutions to typical
+technical problems in software projects. The Patterns section describes several
+such patterns, enabling you to readily expand upon flakes initialized using a
+flake template.
