@@ -14,7 +14,7 @@ export default defineConfig({
       title: "Nix Flake Templates",
       plugins: [catppuccinTheme()],
       social: {
-        github: "https://github.com/akirak/flake-templates",
+        github: "https://github.com/akirak/flake-templates-doc",
       },
       sidebar: [
         {
