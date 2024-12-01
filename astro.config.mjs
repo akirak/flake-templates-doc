@@ -13,10 +13,7 @@ export default defineConfig({
     markdoc(),
     starlight({
       title: "Nix Flake Templates",
-      plugins: [
-        starlightLinksValidator(),
-        catppuccinTheme(),
-      ],
+      plugins: [starlightLinksValidator(), catppuccinTheme()],
       social: {
         github: "https://github.com/akirak/flake-templates",
       },
@@ -33,11 +30,10 @@ export default defineConfig({
           label: "Configuration",
           items: [
             { label: "Nix Direnv", slug: "configuration/nix-direnv" },
-            { label: "Editor support",
-              items: [
-                { label: "Emacs", slug: "configuration/editor/emacs" },
-              ]
-            }
+            {
+              label: "Editor support",
+              items: [{ label: "Emacs", slug: "configuration/editor/emacs" }],
+            },
           ],
         },
         {
