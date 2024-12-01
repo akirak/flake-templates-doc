@@ -1,5 +1,5 @@
 ---
-title: Enabling nix-direnv
+title: Enable nix-direnv
 description: How to set up nix-direnv
 ---
 
