@@ -33,7 +33,14 @@ export default defineConfig({
         },
         {
           label: "Configuration",
-          items: [{ label: "Emacs", slug: "configuration/editor/emacs" }],
+          items: [
+            { label: "Nix Direnv", slug: "configuration/nix-direnv" },
+            { label: "Editor support",
+              items: [
+                { label: "Emacs", slug: "configuration/editor/emacs" },
+              ]
+            }
+          ],
         },
         {
           label: "Recipes",
