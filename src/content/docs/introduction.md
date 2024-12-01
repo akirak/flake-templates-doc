@@ -22,7 +22,7 @@ This documentation site assumes the reader is
 
 ## Overview of this documentation
 If you don't know how to develop projects with Nix flakes, first read [Getting
-started](./getting-started).
+started](/flake-templates-doc/getting-started).
 
 If you have some experiences in development with Nix, you may navigate directly
 to the relevant sections:
