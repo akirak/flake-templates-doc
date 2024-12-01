@@ -14,9 +14,7 @@ export default defineConfig({
     starlight({
       title: "Nix Flake Templates",
       plugins: [
-        starlightLinksValidator({
-          errorOnRelativeLinks: false,
-        }),
+        starlightLinksValidator(),
         catppuccinTheme(),
       ],
       social: {
