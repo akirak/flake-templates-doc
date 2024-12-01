@@ -18,7 +18,7 @@ Both NixOS and home-manager provide options for running nix-direnv.
 }
 ```
 
-and [home-manager](https://nix-community.github.io/home-manager/options.xhtml):
+or [home-manager](https://nix-community.github.io/home-manager/options.xhtml):
 
 ```nix
 {
@@ -28,8 +28,6 @@ and [home-manager](https://nix-community.github.io/home-manager/options.xhtml):
   };
 }
 ```
-
-and [home-manager](https://nix-community.github.io/home-manager/options.xhtml):
 
 ## Further reading
 
