@@ -7,6 +7,8 @@ import markdoc from "@astrojs/markdoc";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://akirak.github.io",
+  base: "/flake-templates-doc/",
   integrations: [
     markdoc(),
     starlight({
