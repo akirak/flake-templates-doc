@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import starlightLinksValidator from "starlight-links-validator";
 import catppuccinTheme from "starlight-theme-catppuccin";
 import markdoc from "@astrojs/markdoc";
 
@@ -13,7 +12,7 @@ export default defineConfig({
     markdoc(),
     starlight({
       title: "Nix Flake Templates",
-      plugins: [starlightLinksValidator(), catppuccinTheme()],
+      plugins: [catppuccinTheme()],
       social: {
         github: "https://github.com/akirak/flake-templates",
       },
