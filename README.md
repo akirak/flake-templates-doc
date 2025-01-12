@@ -1,5 +1,9 @@
 # Documentation for Flake Templates
 
+**Deprecation notice: The documentation is now part of [the template
+repository](https://github.com/akirak/flake-templates). This repository is
+archived.**
+
 This is a companion web site for
 [flake-templates](https://github.com/akirak/flake-templates).
 
